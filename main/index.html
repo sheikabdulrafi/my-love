@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <meta name="theme-color" content="#120b18">
+    <meta name="description" content="For my Jaanu ❤️">
+
+    <title>For My Jaanu ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating background -->
+    <div class="floating-hearts" aria-hidden="true"></div>
+
+    <!-- Music -->
+    <audio id="bgMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <button class="music-btn" id="musicBtn" aria-label="Toggle music">
+        ♫
+    </button>
+
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="hero-glow"></div>
+
+        <div class="hero-content reveal">
+
+            <span class="small-text">
+                A little something for you...
+            </span>
+
+            <h1>
+                My<br>
+                <span>Jaanu</span>
+            </h1>
+
+            <p class="hero-subtitle">
+                There are some things<br>
+                my heart has been trying to tell you.
+            </p>
+
+            <button class="start-btn" onclick="scrollToSection('story')">
+                Open my heart
+                <span>↓</span>
+            </button>
+
+        </div>
+
+        <div class="scroll-indicator">
+            <span>scroll slowly</span>
+            <div></div>
+        </div>
+
+    </section>
+
+
+    <!-- STORY -->
+    <section id="story" class="section story">
+
+        <div class="section-heading reveal">
+
+            <span class="eyebrow">
+                Dear Jaanu
+            </span>
+
+            <h2>
+                I don't know<br>
+                <em>when it happened...</em>
+            </h2>
+
+        </div>
+
+        <div class="story-text reveal">
+
+            <p>
+                Somewhere between your little talks,
+                your beautiful heart, your care,
+                your deen and those tiny things
+                you do without even realizing...
+            </p>
+
+            <p class="highlight">
+                I fell in love with you.
+            </p>
+
+            <p>
+                And somehow, without me noticing,
+                you became a part of everything.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- PHOTO 1 -->
+    <section class="photo-section">
+
+        <div class="photo-frame reveal">
+            <img src="./photos/jaanu1.jpg" alt="My Jaanu">
+            <div class="photo-caption">
+                <span>01</span>
+                The face my heart looks for.
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- THINGS I LOVE -->
+    <section class="section love-section">
+
+        <div class="section-heading reveal">
+
+            <span class="eyebrow">
+                Things I love
+            </span>
+
+            <h2>
+                It's not just<br>
+                <em>your beauty.</em>
+            </h2>
+
+        </div>
+
+
+        <div class="love-cards">
+
+            <div class="love-card reveal">
+                <span>01</span>
+                <h3>Your heart</h3>
+                <p>
+                    The way you care about everyone,
+                    especially me, without expecting anything back.
+                </p>
+            </div>
+
+            <div class="love-card reveal">
+                <span>02</span>
+                <h3>Your Deen</h3>
+                <p>
+                    The way your faith lives quietly
+                    inside everything you do.
+                </p>
+            </div>
+
+            <div class="love-card reveal">
+                <span>03</span>
+                <h3>Your little things</h3>
+                <p>
+                    The tiny habits you don't even notice,
+                    but I somehow notice all of them.
+                </p>
+            </div>
+
+            <div class="love-card reveal">
+                <span>04</span>
+                <h3>The way you love me</h3>
+                <p>
+                    The way you worry when I'm late,
+                    the way you take care of me,
+                    the way you make me feel at home.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PHOTO COLLAGE -->
+    <section class="gallery-section">
+
+        <div class="gallery-intro reveal">
+
+            <span class="eyebrow">
+                My favourite view
+            </span>
+
+            <h2>
+                You.
+            </h2>
+
+        </div>
+
+        <div class="gallery">
+
+            <div class="gallery-item tall reveal">
+                <img src="./photos/jaanu2.jpg" alt="">
+            </div>
+
+            <div class="gallery-item reveal">
+                <img src="./photos/jaanu3.jpg" alt="">
+            </div>
+
+            <div class="gallery-item reveal">
+                <img src="./photos/jaanu4.jpg" alt="">
+            </div>
+
+            <div class="gallery-item wide reveal">
+                <img src="./photos/jaanu5.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- QUOTE -->
+    <section class="quote-section">
+
+        <div class="quote reveal">
+
+            <span class="quote-mark">“</span>
+
+            <p>
+                I don't want a perfect life.
+                I just want a life where
+                you're beside me.
+            </p>
+
+            <span class="quote-author">
+                — Your Ahjilu ❤️
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- BEFORE / AFTER -->
+    <section class="section before-after">
+
+        <div class="section-heading reveal">
+
+            <span class="eyebrow">
+                Before you & After you
+            </span>
+
+            <h2>
+                Somewhere along<br>
+                the way...
+            </h2>
+
+        </div>
+
+        <div class="comparison">
+
+            <div class="comparison-card reveal">
+
+                <span>BEFORE YOU</span>
+
+                <p>
+                    I had plans.
+                </p>
+
+                <p>
+                    I had routines.
+                </p>
+
+                <p>
+                    I had my own little world.
+                </p>
+
+            </div>
+
+            <div class="comparison-arrow reveal">
+                ↓
+            </div>
+
+            <div class="comparison-card active reveal">
+
+                <span>AFTER YOU</span>
+
+                <p>
+                    Every plan has you.
+                </p>
+
+                <p>
+                    Every routine has you.
+                </p>
+
+                <p>
+                    My whole world has you.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PHOTO -->
+    <section class="photo-section">
+
+        <div class="photo-frame reveal">
+
+            <img src="./photos/jaanu6.jpg" alt="My Jaanu">
+
+            <div class="photo-caption">
+                <span>02</span>
+                Somehow, you became home.
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- BABY -->
+    <section class="baby-section">
+
+        <div class="baby-glow"></div>
+
+        <div class="baby-content reveal">
+
+            <span class="eyebrow">
+                Our little miracle
+            </span>
+
+            <div class="baby-icon">
+                ♡
+            </div>
+
+            <h2>
+                Soon there will be<br>
+                <em>three of us.</em>
+            </h2>
+
+            <p>
+                You, me and the little one
+                who already has our entire heart.
+            </p>
+
+            <p>
+                May Allah protect you,
+                protect our little one,
+                and keep our family wrapped
+                in His mercy.
+            </p>
+
+            <div class="dua">
+                Ameen 🤲🏻
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- COUNTDOWN -->
+    <section class="countdown-section">
+
+        <div class="countdown-content reveal">
+
+            <span class="eyebrow">
+                Until you're here
+            </span>
+
+            <h2>
+                Just a little<br>
+                <em>more waiting...</em>
+            </h2>
+
+            <div class="countdown">
+
+                <div>
+                    <strong id="days">20</strong>
+                    <span>Days</span>
+                </div>
+
+                <div>
+                    <strong id="hours">00</strong>
+                    <span>Hours</span>
+                </div>
+
+                <div>
+                    <strong id="minutes">00</strong>
+                    <span>Minutes</span>
+                </div>
+
+                <div>
+                    <strong id="seconds">00</strong>
+                    <span>Seconds</span>
+                </div>
+
+            </div>
+
+            <p class="countdown-text">
+                And then no more counting days...
+                just making memories. ❤️
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- INTERACTIVE -->
+    <section class="interactive-section">
+
+        <div class="interactive-content reveal">
+
+            <span class="eyebrow">
+                One little question
+            </span>
+
+            <h2>
+                Do you know<br>
+                how much I love you?
+            </h2>
+
+            <button class="heart-button" id="heartButton">
+                ❤️
+            </button>
+
+            <p id="heartMessage">
+                Tap the heart...
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- FINAL GALLERY -->
+    <section class="final-gallery">
+
+        <div class="final-photo reveal">
+            <img src="./photos/jaanu7.jpg" alt="">
+        </div>
+
+        <div class="final-photo small reveal">
+            <img src="./photos/jaanu8.jpg" alt="">
+        </div>
+
+    </section>
+
+
+    <!-- FINAL MESSAGE -->
+    <section class="final-section">
+
+        <div class="final-content reveal">
+
+            <span class="eyebrow">
+                And finally...
+            </span>
+
+            <h2>
+                If I had to<br>
+                choose again...
+            </h2>
+
+            <div class="final-line"></div>
+
+            <p>
+                I would still choose you.
+            </p>
+
+            <p>
+                In every life.<br>
+                In every timeline.<br>
+                In every version of me.
+            </p>
+
+            <strong>
+                Every single time. ❤️
+            </strong>
+
+            <div class="signature">
+                Your Ahjilu
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        Made with too much love ❤️
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
